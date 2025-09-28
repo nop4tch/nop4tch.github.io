@@ -33,12 +33,13 @@
                   <input type="text" id="lname" name="lname"><br><br>
                   <input type="submit" value="Submit">
                 </form>
-
-                if(window.jsBridge){
-                    alert(window.jsBridge.getLocation());
-                }else{
-                    alert("no return data");
-                }
+                <script>
+                    if(window.jsBridge){
+                        alert(window.jsBridge.getLocation());
+                    }else{
+                        alert("no return data");
+                    }
+                </script>
             </div>
         </div>
     </body>

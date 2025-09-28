@@ -34,19 +34,6 @@
                   <input type="text" id="lname" name="lname"><br><br>
                   <input type="submit" value="Submit">
                 </form>
-                <script>
-                    var data; 
-                    
-                    if(window.jsBridge){
-                        data = window.jsBridge.getLocation()
-                    }else{
-                        alert("no return data");
-                    }
-
-                    if(data) {
-                        document.write("Stolen data: " + data);
-                    }
-                </script>
             </div>
         </div>
     </body>
